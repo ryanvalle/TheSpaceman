@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.*;	import flash.net.URLRequest;		public class introVideo extends MovieClip {						public function introVideo() {						var mLoader:Loader = new Loader();			var mRequest:URLRequest = new URLRequest("videoStream.swf");			mLoader.load(mRequest);			addChild(mLoader);					}	}	}
